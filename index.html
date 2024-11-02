@@ -1,1 +1,122 @@
-teste
+<!DOCTYPE html>
+<html>
+<head>
+	
+		<link rel="stylesheet" type="text/css" >
+
+
+	<style>
+#canaiscontent {
+    
+background-color: #feec71;
+
+} 
+
+</style>
+	<meta charset="utf-8">
+		
+
+	<title>Além da Imaginação (1959)</title>
+</head>
+
+
+	
+
+
+	
+
+	
+
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain attribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+	
+	
+<body>
+	
+		<div id="logovideos">
+	<img src="logoséries.png">
+</div>
+	
+<div w3-include-html="https://ricardoestevam1.github.io/Music-Player/contentseriesalem.html" ></div>
+<script>
+includeHTML();
+</script>
+	
+
+
+
+
+
+
+<div id="meiomusicas">
+
+<div id="Antigas">
+<a href="https://vimeo.com/1011655897"><img src="https://i.vimeocdn.com/video/{1011655897}"></br>1X01 - Onde estão Todos</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011667557"><img src="https://i.vimeocdn.com/video/{1011667557}"></br>1X02 - Um Negócio Para Os Anjos</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1011668432}"></br>1X03 - Mr. Denton</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1023608075"><img src="https://i.vimeocdn.com/video/{1023608075}"></br>1X04 - O Santuário</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1023609694"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>1X05 - Distância Para Caminhar</a>
+</div>
+ /* <div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>1X06 - Fuga Para A Morte</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>1X07 - Solidão</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>1X08 - Tempo Suficiente</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>1X09 - O Sonho</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>1X10 - O Navio</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>1X11 - Céu Aberto</a>
+</div>
+<div id="Antigas">
+<a href="https://vimeo.com/1011668432"><img src="https://i.vimeocdn.com/video/{1007348803}"></br>Ai - 1X12 - O Que Você Precisa</a>
+</div>*/
+
+
+
+</div>
+</body>
+</html>
+
